@@ -1,19 +1,16 @@
-import Intro from "./comproject/intro/Intro"
-import About from "./comproject/About/About"
-import Contact from "./comproject/contact/Contact"
-import Experence from "./comproject/ex/experence"
-
-
+import Introduction from "./Components/intro/Introduction";
+import About from "./Components/About/About";
+import Experence from "./Components/Experence/Experence";
+import Contact from "./Components/Contact/Contact";
 const App = () => {
   return (
-    <div >
-      <Intro/>
-      <About/>
+    <div>
+      <Introduction />
+      <About />
       <Experence />
-      <Contact/>
-     
+      <Contact />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
